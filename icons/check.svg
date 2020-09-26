@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 49 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>check</title>
+    <g id="index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Topbar" transform="translate(-698.000000, -25.000000)">
+            <rect id="Tool-bar" fill="#E9DCBE" x="0" y="0" width="1440" height="100"></rect>
+            <g id="setting" transform="translate(400.000000, 2.000000)" fill="#8E8B82" fill-rule="nonzero">
+                <g id="check" transform="translate(298.000000, 23.000000)">
+                    <path d="M24.5,0 C38.0316562,0 49,10.7445 49,24 C49,37.2555 38.0316562,48 24.5,48 C10.9683438,48 0,37.2555 0,24 C0,10.7445 10.9683438,0 24.5,0 Z M35.7379268,14 L19.4244848,29.7125926 L12.2605352,22.8148148 L9,25.957037 L19.4244848,36 L39,17.1437037 L35.7379268,14 L35.7379268,14 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

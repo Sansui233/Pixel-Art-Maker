@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar-left">
+            <h1>Pixel Art Maker</h1>
+        </div>
+        <div class="topbar-center">
+            <form onsubmit="return false">
+                <input type="number" id="inputHeight" name="height" min="1" value="8">
+                x
+                <input type="number" id="inputWidth" name="width" min="1" value="8">
+                <input type="submit" id="submit_btn" onclick="onSubmit()" value="&nbsp">    
+            </form>
+            <input type="color" id="colorPicker" value="#D97878">
+        </div>
+        <div class="topbar-right">
+        </div>
+    </div>
+
+    <div class="tools">
+        <input type="radio" name="tool" id="pen" checked onclick="onSetPen()"> Pen
+        <input type="radio" name="tool" id="rubber" onclick="onSetRubber()"> Rubber
+    </div>
+
+    <div class="canvas">
+        <table id="pixelCanvas"></table>
+    </div>
+
+    <script src="designs.js"></script>
+</body>
+</html>
